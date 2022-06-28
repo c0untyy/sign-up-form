@@ -1,4 +1,8 @@
-function submitForms(){
-    document.getElementById("form1").submit();
-    document.getElementById("form2").submit();
+password1 = document.getElementById('password');
+password2 = document.getElementById('passwordConf');
+
+function validatePasswords(){
+    if(password.value==''){
+        password.set
+    }
 }
