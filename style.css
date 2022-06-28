@@ -1,0 +1,152 @@
+/* Colors
+Blue-ish: #4563a1
+Brown-Orange: #8c2617
+darkish blue: #132630 
+
+yellowish: #fadf5c;
+*/
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background: #98a0b3;
+}
+
+img {
+    display: block;
+    width: auto;
+    height: 100vh;
+}
+
+.background {
+    position: relative;
+}
+
+.bdtext-container {
+    position: absolute;
+    top: 10%;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    background-color: #132630;
+    opacity: .65;
+}
+.photoCredit{
+    position:absolute;
+    bottom:1%;
+    width: 100%;
+    text-align: center;
+    color: #132630;
+}
+.photoCredit > p >a {
+    color:#132630;
+    text-decoration: none;
+}
+
+.bdtext {
+    font-size: 6rem;
+    color: rgb(255, 223, 92, .7);
+    font-family: 'Playfair Display', serif;
+
+}
+
+.main {
+    height: 100vh;
+    width: auto;
+    display: flex;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.right-top {
+    height: 40%;
+
+}
+
+.right-mid {
+    height: 25%;
+    background-color: #edeef2;
+    padding: 1rem;
+}
+
+.right-bot {
+    height: 35%;
+}
+
+.para {
+    font-size: 2.5rem;
+    padding: 2rem;
+    margin-top: 7rem;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.para>em {
+    font-style: italic;
+    color: #fadf5c
+}
+
+.form-left {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    gap: 5px;
+}
+
+.form-right {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    gap: 5px;
+    border-radius: 5px;
+}
+
+.forms>form>input {
+    border-radius: 4px;
+}
+
+.forms {
+    display: flex;
+    gap: 7rem;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.para-form {
+    font-size: 1.5rem;
+    padding-left: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.button-para {
+    padding-left: 36px;
+    padding-top: 18px;
+    gap: 9px;
+    display: flex;
+    flex-direction: column;
+}
+
+.submitButton {
+    height: 4em;
+    width: 10em;
+    border-radius: 5px;
+    background-color: #fadf5c;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.button-para>p>a {
+    color: #fadf5c;
+    text-decoration: none;
+}
+
+.button-para>p {
+    font-size: 1.25rem;
+}
