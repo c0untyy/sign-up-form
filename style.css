@@ -14,10 +14,14 @@ body {
     background: #98a0b3;
 }
 
-img {
+.background-image {
     display: block;
     width: auto;
     height: 100vh;
+}
+
+.logo-image {
+    width: 80%;
 }
 
 .background {
@@ -63,7 +67,7 @@ img {
     height: 85%;
     font-size: 6rem;
     color: rgb(255, 223, 92);
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', serif;
 }
 
 .main {
@@ -96,7 +100,7 @@ img {
 .para {
     font-size: 2.5rem;
     padding: 2rem;
-    margin-top: 7rem;
+    margin-top: 5.5rem;
     font-family: 'Poppins', sans-serif;
 
 }
@@ -113,8 +117,9 @@ img {
     height: 100%;
     gap: 5px;
 }
-.input{
-    display:flex;
+
+.input {
+    display: flex;
     flex-flow: column wrap;
     width: 40%;
     gap: 5px;
